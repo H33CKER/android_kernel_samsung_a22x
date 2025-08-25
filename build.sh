@@ -8,8 +8,8 @@ NC='\033[0m'
 # add kernelsu
 if [ ! -d "$(pwd)/KernelSU" ]; then
     echo -e "${RED}[+]otw clone kernelsu....${NC}"
-    curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -
-else
+    curl -LSs "https://raw.githubusercontent.com/rsuntk/KernelSU/main/kernel/setup.sh" | bash -s main
+else   
     echo -e "${GREEN}[!]kernelsu ready.... ${NC}"
 fi
 
