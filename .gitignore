@@ -3,3 +3,7 @@ toolchain/
 AnyKernel3/
 KernelSU/
 KernelSU-Next/
+*.rej
+*.patch
+/susfs4ksu
+*.orig
