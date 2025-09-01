@@ -34,6 +34,7 @@ CAPTION="*A22-$DATE*
 LocalVersion :
 $KERNEL_VER
 \`\`\`
+[KernelSU-Manajer](https://github.com/rsuntk/KernelSU.git)
 *Flash via TWRP only*
 "
 
