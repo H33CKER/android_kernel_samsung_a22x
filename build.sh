@@ -5,14 +5,6 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m'
 
-# add kernelsu
-if [ ! -d "$(pwd)/KernelSU" ]; then
-    echo -e "${RED}[+]otw clone kernelsu....${NC}"
-    curl -LSs "https://raw.githubusercontent.com/rsuntk/KernelSU/main/kernel/setup.sh" | bash -s main
-else   
-    echo -e "${GREEN}[!]kernelsu ready.... ${NC}"
-fi
-
 # clone clang
 if [ ! -d "$(pwd)/toolchain" ]; then
     echo -e "${RED}[+]gas download toolchain....${NC}"
