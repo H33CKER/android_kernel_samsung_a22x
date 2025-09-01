@@ -1,4 +1,4 @@
-name: BUILD KERNEL
+name: A226B-BUILD
 
 on:
   workflow_dispatch:
@@ -23,9 +23,16 @@ jobs:
         run: |
           chmod +x build.sh
           ./build.sh
-
+    
+      - name: Upload in telegram
+        run: |
+           chmod +x tg.sh
+           ./tg.sh
+           
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: Kernel
           path: AnyKernel3*.zip
+
+    
