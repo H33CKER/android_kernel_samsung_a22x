@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # bot informasi
-BOT_TOKEN="8171382745:AAGihLEMgYYHVrlkxL0f7Lr6UZtCyNNodxE"
-CHAT_ID="-1002643673545"
+BOT_TOKEN="8309425600:AAFnL3ADuC_9xCcIs3lJvgmh2wbncbc1fDg"
+CHAT_ID="-1002945608895"
 
 # Path variabel
 HOME="$(pwd)"
