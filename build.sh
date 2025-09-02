@@ -24,7 +24,7 @@ fi
 # clone AnyKernel3 kalau belum ada
 if [ ! -d "$(pwd)/AnyKernel3" ]; then
     echo -e "${RED}[+]gas download anykernel3....${NC}"
-    git clone -b a22x https://github.com/makruf1954/AnyKernel3.git AnyKernel3
+    git clone -b a22x https://github.com/H33CKER/AnyKernel3.git AnyKernel3
 else
     echo -e "${GREEN}[!]anykernel ready....${NC}"
 fi
